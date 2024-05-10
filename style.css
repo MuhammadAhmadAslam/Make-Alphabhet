@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+/* body{
+    background-color: blueviolet;
+}
+.alphabet-button{
+    background-color: brown;
+    color: white;
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+} */
+body{
+    background-color: blueviolet;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* This will make the .main div full height */
+  }
+  
+  .main1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .alphabet-button {
+    margin: 10px;
+  }
+  .alphabet-button{
+    background-color: brown;
+    color: white;
+    width: 80px;
+    height: 30px;
+    margin-top: 20px;
+    border: none;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}
+#write{
+    font-family: 'Courier New', Courier, monospace;
+    color: wheat;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
